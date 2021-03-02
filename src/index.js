@@ -61,3 +61,8 @@ textoIngresado2*/
     let textoIngresado2 = textoCifrado.value;
     let resultadoDescifrado = resultado2.value = cipher.descifrado(textoIngresado2);
 }*/
+
+let opacidad = document.querySelectorAll("#contenedorCompartir")
+let cajalogos = document.querySelectorAll(".contenedorx")
+let cerrar = document.querySelectorAll(".close")
+let abrir = document.querySelectorAll(".iconoCompartir")

@@ -22,6 +22,7 @@
 
     <div class="instructivo">
         <h2 class="tituloInstructivo">¿Cómo hacer tu denuncia?</h2>
+
         <div>
             <img class="icono1" src="Recursos/Paso 1.png"></img>
             <h3 class="subtitulo1">Paso 1</h3>
@@ -39,11 +40,10 @@
         </div>
     </div>
 
-
     <div id="contenedorCifrado">
-        <img class="imagenFooter" src="Recursos/Ellipse.png" alt="subir">
-        <img class="subir" src="Recursos/Subir.png" alt="flechaSubir">
         <div id="cajaCifrado">
+            <img class="imagenFooter" src="Recursos/Ellipse.png" alt="subir">
+            <img class="subir" src="Recursos/Subir.png" alt="flechaSubir">
             <setion class="cifrado">
                 <h2 class="tituloCifrado">Cifrar tu denuncia</h2>
                 <form>
@@ -52,21 +52,27 @@
                 </form>
                 <button id="btncifrado1" mensaje>Cifrar mensaje</button>
                 <textarea type="text" id="textoCifrado" rows="20" cols="40" disabled="disabled"></textarea>
+                <img class="compartir" src="Recursos/Compartir.png" alt="compartir">
             </setion>
         </div>
+    </div>
 
-
-        <div id="cajaDescifrado">
-            <setion id="descifrado">
-                <h2 class="tituloDescifrado">Decifrar denuncia</h2>
-                <form>
-                    <textarea type="text" id="denunciaCifrada" rows="10" cols="40" placeholder="Pega la denuncia cifrada aquí"></textarea>
-                </form>
-                <button id="btndescifrado1" mensaje>Descifrar mensaje</button>
-                <textarea type="text" id="textoDescifrado" rows="10" cols="40" disabled="disabled"></textarea>
-            </setion>
+    <div id="contenedorCompartir">
+        <div class="contenedorx">
+            <p class="close">X</p>
         </div>
+    </div>
 
+
+    <div id="cajaDescifrado">
+        <setion id="descifrado">
+            <h2 class="tituloDescifrado">Decifrar denuncia</h2>
+            <form>
+                <textarea type="text" id="denunciaCifrada" rows="10" cols="40" placeholder="Pega la denuncia cifrada aquí"></textarea>
+            </form>
+            <button id="btndescifrado1" mensaje>Descifrar mensaje</button>
+            <textarea type="text" id="textoDescifrado" rows="10" cols="40" disabled="disabled"></textarea>
+        </setion>
     </div>
 
     <script src="index.js" type="module"></script>
