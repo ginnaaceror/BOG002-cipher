@@ -6,7 +6,7 @@ import cipher from './cipher.js';
 
 let texto = document.getElementById("denuncia");
 let posicion = document.getElementById("desplazamiento");
-let btncifrado = document.getElementById("btncifrado1")
+let btncifrado = document.getElementById("btncifrado1");
 let resultado = document.getElementById("textoCifrado");
 
 
@@ -21,20 +21,20 @@ texto.addEventListener("keyup", function() {
 /*Un evento es inutil sino se le asigna alguna función, en este caso el 
 evento "click" invoca la función de cifrar por medio de btncifrado1()*/
 
-btncifrado.addEventListener("click", btncifrado1)
+btncifrado.addEventListener("click", btncifrado1);
 
 
 function btncifrado1() {
     let textoIngresado = texto.value;
     let numeroIngresado = posicion.value;
-    let resultadoCifrado = resultado.value = cipher.cifrado(textoIngresado, numeroIngresado);
+    let resultadoCifrado = resultado.value = cipher.encode(textoIngresado, numeroIngresado);
 }
 
 
 /*id de la sección descifrado*/
 
 let textoCifrado = document.getElementById("denunciaCifrada");
-let btndescifrado = document.getElementById("btndescifrado1")
+let btndescifrado = document.getElementById("btndescifrado1");
 let salida = document.getElementById("textoDescifrado");
 
 textoCifrado.addEventListener("keyup", function() {
@@ -44,12 +44,12 @@ textoCifrado.addEventListener("keyup", function() {
 
 
 
-btndescifrado.addEventListener("click", btndescifrado1)
+btndescifrado.addEventListener("click", btndescifrado1);
 
 function btndescifrado1() {
     let textoIngresado2 = textoCifrado.value;
     let posicionActual = posicion.value;
-    let mensajeFinal = salida.value = cipher.descifrado(textoIngresado2, posicionActual);
+    let mensajeFinal = salida.value = cipher.decode(textoIngresado2, posicionActual);
 }
 
 /*Necesitamos 2 "parametros" para que la función descifrado 
@@ -62,7 +62,23 @@ textoIngresado2*/
     let resultadoDescifrado = resultado2.value = cipher.descifrado(textoIngresado2);
 }*/
 
-let opacidad = document.querySelectorAll("#contenedorCompartir")
-let cajalogos = document.querySelectorAll(".contenedorx")
-let cerrar = document.querySelectorAll(".close")
-let abrir = document.querySelectorAll(".iconoCompartir")
+let opacidad = document.querySelectorAll("#contenedorCompartir")[0];
+let cajalogos = document.querySelectorAll(".contenedorx")[0];
+let cerrar = document.querySelectorAll(".close")[0];
+let abrir = document.querySelectorAll(".compartir")[0];
+
+abrir.addEventListener("click", function() {
+    opacidad.style.opacity = "1";
+    opacidad.style.visibility = "visible";
+    cajalogos.classList.toggle = ("close");
+});
+
+cerrar.addEventListener("click", function() {
+    cajalogos.classList.toggle = ("close");
+    opacidad.style.opacity = "0";
+    opacidad.style.visibility = "hidden";
+});
+
+/*window.addEventListener("click", function(e) {
+
+        }*/

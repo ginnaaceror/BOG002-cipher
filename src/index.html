@@ -5,6 +5,10 @@
     <meta charset="utf-8">
     <title>Cesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 
 
@@ -44,7 +48,7 @@
         <div id="cajaCifrado">
             <img class="imagenFooter" src="Recursos/Ellipse.png" alt="subir">
             <img class="subir" src="Recursos/Subir.png" alt="flechaSubir">
-            <setion class="cifrado">
+            <section class="cifrado">
                 <h2 class="tituloCifrado">Cifrar tu denuncia</h2>
                 <form>
                     <textarea type="text" id="denuncia" rows="10" cols="40" placeholder="Escribe tu denuncia aquí"></textarea>
@@ -52,27 +56,27 @@
                 </form>
                 <button id="btncifrado1" mensaje>Cifrar mensaje</button>
                 <textarea type="text" id="textoCifrado" rows="20" cols="40" disabled="disabled"></textarea>
-                <img class="compartir" src="Recursos/Compartir.png" alt="compartir">
-            </setion>
+                <button class="compartir" name="boton" type="submit"><img src="Recursos/Compartir.png"></button>
+            </section>
         </div>
     </div>
 
     <div id="contenedorCompartir">
         <div class="contenedorx">
-            <p class="close">X</p>
+            <button class="close" name="boton" type="submit"><img src="Recursos/close.png"></button>
         </div>
     </div>
 
 
     <div id="cajaDescifrado">
-        <setion id="descifrado">
-            <h2 class="tituloDescifrado">Decifrar denuncia</h2>
+        <section id="descifrado">
+            <h2 class="tituloDescifrado">Descifrar denuncia</h2>
             <form>
                 <textarea type="text" id="denunciaCifrada" rows="10" cols="40" placeholder="Pega la denuncia cifrada aquí"></textarea>
             </form>
             <button id="btndescifrado1" mensaje>Descifrar mensaje</button>
             <textarea type="text" id="textoDescifrado" rows="10" cols="40" disabled="disabled"></textarea>
-        </setion>
+        </section>
     </div>
 
     <script src="index.js" type="module"></script>

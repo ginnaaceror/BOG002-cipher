@@ -1,9 +1,9 @@
 const cipher = {
-    cifrado,
-    descifrado
+    encode,
+    decode
 }
 
-function cifrado(texto, posicion) {
+function encode(texto, posicion) {
     let resultado = "";
     let cadena = "ABCDEFGHIJKLMNOPQRTSUVWXYZ";
 
@@ -18,14 +18,14 @@ function cifrado(texto, posicion) {
             } else {
                 resultado += texto[i];
             }
-        };
+        }
 
     }
     return resultado;
 
 }
 
-function descifrado(texto, posicion) {
+function decode(texto, posicion) {
     let resultado = "";
     let cadena = "ABCDEFGHIJKLMNOPQRTSUVWXYZ";
 
@@ -39,7 +39,7 @@ function descifrado(texto, posicion) {
                 resultado += cadena[cadenaPosicion];
             } else
                 resultado += texto[i];
-        };
+        }
 
 
 
