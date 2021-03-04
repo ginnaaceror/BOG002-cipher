@@ -27,7 +27,7 @@ btncifrado.addEventListener("click", btncifrado1);
 function btncifrado1() {
     let textoIngresado = texto.value;
     let numeroIngresado = posicion.value;
-    let resultadoCifrado = resultado.value = cipher.encode(textoIngresado, numeroIngresado);
+    resultado.value = cipher.encode(textoIngresado, numeroIngresado);
 }
 
 
@@ -49,7 +49,7 @@ btndescifrado.addEventListener("click", btndescifrado1);
 function btndescifrado1() {
     let textoIngresado2 = textoCifrado.value;
     let posicionActual = posicion.value;
-    let mensajeFinal = salida.value = cipher.decode(textoIngresado2, posicionActual);
+    salida.value = cipher.decode(textoIngresado2, posicionActual);
 }
 
 /*Necesitamos 2 "parametros" para que la función descifrado 
@@ -67,11 +67,11 @@ let cajalogos = document.querySelectorAll(".contenedorx")[0];
 let cerrar = document.querySelectorAll(".close")[0];
 let abrir = document.querySelectorAll(".compartir")[0];
 
-abrir.addEventListener("click", function() {
+/*abrir.addEventListener("click", function() {
     opacidad.style.opacity = "1";
     opacidad.style.visibility = "visible";
     cajalogos.classList.toggle = ("close");
-});
+});*/
 
 cerrar.addEventListener("click", function() {
     cajalogos.classList.toggle = ("close");
@@ -82,3 +82,28 @@ cerrar.addEventListener("click", function() {
 /*window.addEventListener("click", function(e) {
 
         }*/
+
+function textoCompartir() {
+
+}
+
+abrir.addEventListener("click", function() {
+    opacidad.style.opacity = "1";
+    opacidad.style.visibility = "visible";
+    cajalogos.classList.toggle = ("close");
+
+    let posicionClave = posicion.value;
+    document.getElementById("textoCompartir").innerHTML = "Tu clave es " + posicionClave;
+});
+
+
+let clear = document.getElementById("reload");
+clear.addEventListener("click", reload);
+
+function reload() {
+    texto.value = "";
+    posicion.value = "";
+    resultado.value = "";
+    textoCifrado.value = "";
+    salida.value = "";
+}

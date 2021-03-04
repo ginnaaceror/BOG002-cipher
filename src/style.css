@@ -327,6 +327,7 @@
              height: 55px;
              left: 320px;
              top: 380px;
+             cursor: pointer;
              font-family: Roboto;
              font-style: normal;
              font-weight: bold;
@@ -415,6 +416,7 @@
              height: 55px;
              left: 79px;
              top: 380px;
+             cursor: pointer;
              font-family: Roboto;
              font-style: normal;
              font-weight: bold;
@@ -467,7 +469,7 @@
              height: 800px;
              left: 75px;
              top: 1325px;
-             background: rgba(234, 226, 253, 0.60);
+             background: rgba(234, 226, 253, 0.85);
              border-radius: 19px;
          }
          
@@ -476,7 +478,7 @@
              width: 556px;
              height: 478px;
              left: 408px;
-             top: 160px;
+             top: 40px;
              justify-content: center;
              align-content: center;
              background: #ffffff;
@@ -488,6 +490,8 @@
              position: relative;
              background-color: transparent;
              border-color: transparent;
+             cursor: pointer;
+             outline: none;
              width: 35px;
              height: 35px;
              left: 500px;
@@ -499,8 +503,22 @@
              position: relative;
              background-color: transparent;
              border-color: transparent;
+             cursor: pointer;
+             outline: none;
              width: 35px;
              height: 35px;
              left: 1226px;
              top: 500px;
+         }
+         
+         #reload {
+             position: relative;
+             background-color: transparent;
+             border-color: transparent;
+             cursor: pointer;
+             outline: none;
+             width: 35px;
+             height: 35px;
+             left: 1188px;
+             top: 566px;
          }
