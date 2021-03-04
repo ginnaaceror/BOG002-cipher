@@ -5,9 +5,14 @@ const cipher = {
 
 function encode(texto, posicion) {
     if (!posicion || !texto) {
+<<<<<<< HEAD
         throw new TypeError('error');
     }
 
+=======
+        throw new TypeError('error');//Esta es la línea que usamos para arrojar un error//
+    }
+>>>>>>> d5a3f1d8cbfb4893fced0fba818b78788f7c2a36
     let resultado = "";
     let cadena = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -33,7 +38,10 @@ function decode(texto, posicion) {
     if (!posicion || !texto) {
         throw new TypeError('error');
     }
+<<<<<<< HEAD
 
+=======
+>>>>>>> d5a3f1d8cbfb4893fced0fba818b78788f7c2a36
     let resultado = "";
     let cadena = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 

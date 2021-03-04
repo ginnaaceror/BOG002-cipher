@@ -271,7 +271,7 @@
              left: 78px;
              top: 120px;
              padding-inline-start: 30px;
-             font-size: 20;
+             font-size: 20px;
              padding-top: 30px;
              font-family: roboto;
              border: 1px solid #000000;
@@ -348,7 +348,7 @@
              left: 78px;
              top: 480px;
              padding-inline-start: 30px;
-             font-size: 20;
+             font-size: 20px;
              padding-top: 30px;
              font-family: roboto;
              border: 1px solid #000000;
@@ -388,7 +388,7 @@
              left: 78px;
              top: 120px;
              padding-inline-start: 30px;
-             font-size: 20;
+             font-size: 20px;
              padding-top: 30px;
              font-family: roboto;
              border: 1px solid #000000;
@@ -414,7 +414,7 @@
              position: absolute;
              width: 220px;
              height: 55px;
-             left: 79px;
+             left: 320px;
              top: 380px;
              cursor: pointer;
              font-family: Roboto;
@@ -437,7 +437,7 @@
              left: 78px;
              top: 480px;
              padding-inline-start: 30px;
-             font-size: 20;
+             font-size: 20px;
              padding-top: 30px;
              font-family: roboto;
              border: 1px solid #000000;
@@ -522,4 +522,32 @@
              height: 35px;
              left: 1188px;
              top: 566px;
+         }
+         
+         #clave {
+             position: absolute;
+             width: 220px;
+             height: 55px;
+             left: 79px;
+             top: 380px;
+             font-size: 18px;
+             padding-inline-start: 5px;
+             border: 2px solid #3603A1;
+             box-sizing: border-box;
+             border-radius: 9px;
+         }
+         
+         input::placeholder {
+             position: relative;
+             width: 100px;
+             height: 27px;
+             left: 2px;
+             top: 1px;
+             font-family: Roboto;
+             font-style: normal;
+             font-weight: 300;
+             font-size: 16px;
+             line-height: 30px;
+             text-align: center;
+             color: rgba(0, 0, 0, 0.76);
          }

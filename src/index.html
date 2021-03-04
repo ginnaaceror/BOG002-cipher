@@ -64,7 +64,8 @@
 
     <div id="contenedorCompartir">
         <div class="contenedorx">
-            <h1 id="textoCompartir">La clave es</h1>
+            <h1 id="textoCompartir"></h1>
+            <p>Tu denuncia ha sido cifrada, con está clave tus amigos podrán decifrarla.</p>
             <button class="close" name="boton" type="submit"><img src="Recursos/close.png"></button>
         </div>
     </div>
@@ -76,6 +77,7 @@
             <form>
                 <textarea type="text" id="denunciaCifrada" rows="10" cols="40" placeholder="Pega la denuncia cifrada aquí"></textarea>
             </form>
+            <input type="number" id="clave" placeholder="Insertar clave">
             <button id="btndescifrado1" mensaje>Descifrar mensaje</button>
             <textarea type="text" id="textoDescifrado" rows="10" cols="40" disabled="disabled"></textarea>
         </section>
