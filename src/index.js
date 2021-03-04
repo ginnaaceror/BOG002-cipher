@@ -83,9 +83,6 @@ cerrar.addEventListener("click", function() {
 
         }*/
 
-function textoCompartir() {
-
-}
 
 abrir.addEventListener("click", function() {
     opacidad.style.opacity = "1";

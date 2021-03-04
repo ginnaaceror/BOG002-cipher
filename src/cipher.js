@@ -4,8 +4,12 @@ const cipher = {
 }
 
 function encode(texto, posicion) {
+    if (!posicion || !texto) {
+        throw new TypeError('error');
+    }
+
     let resultado = "";
-    let cadena = "ABCDEFGHIJKLMNOPQRTSUVWXYZ";
+    let cadena = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 
     posicion = (posicion % 26 + 26) % 26;
@@ -26,8 +30,12 @@ function encode(texto, posicion) {
 }
 
 function decode(texto, posicion) {
+    if (!posicion || !texto) {
+        throw new TypeError('error');
+    }
+
     let resultado = "";
-    let cadena = "ABCDEFGHIJKLMNOPQRTSUVWXYZ";
+    let cadena = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     posicion = (posicion % 26 - 26) % 26;
 
