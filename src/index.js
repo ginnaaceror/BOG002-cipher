@@ -8,6 +8,7 @@ let texto = document.getElementById("denuncia");
 let posicion = document.getElementById("desplazamiento");
 let btncifrado = document.getElementById("btncifrado1");
 let resultado = document.getElementById("textoCifrado");
+let posicion2 = document.getElementById ("clave");
 
 
 
@@ -48,7 +49,7 @@ btndescifrado.addEventListener("click", btndescifrado1);
 
 function btndescifrado1() {
     let textoIngresado2 = textoCifrado.value;
-    let posicionActual = posicion.value;
+    let posicionActual = posicion2.value;
     salida.value = cipher.decode(textoIngresado2, posicionActual);
 }
 
@@ -83,9 +84,6 @@ cerrar.addEventListener("click", function() {
 
         }*/
 
-function textoCompartir() {
-
-}
 
 abrir.addEventListener("click", function() {
     opacidad.style.opacity = "1";
@@ -93,7 +91,7 @@ abrir.addEventListener("click", function() {
     cajalogos.classList.toggle = ("close");
 
     let posicionClave = posicion.value;
-    document.getElementById("textoCompartir").innerHTML = "Tu clave es " + posicionClave;
+    document.getElementById("textoCompartir").innerHTML = "La clave es " + posicionClave;
 });
 
 
