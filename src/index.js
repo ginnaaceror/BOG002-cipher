@@ -8,7 +8,7 @@ let texto = document.getElementById("denuncia");
 let posicion = document.getElementById("desplazamiento");
 let btncifrado = document.getElementById("btncifrado1");
 let resultado = document.getElementById("textoCifrado");
-let posicion2 = document.getElementById ("clave");
+let posicion2 = document.getElementById("clave");
 
 
 
