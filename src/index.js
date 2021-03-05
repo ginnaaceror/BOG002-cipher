@@ -80,18 +80,13 @@ cerrar.addEventListener("click", function() {
     opacidad.style.visibility = "hidden";
 });
 
-/*window.addEventListener("click", function(e) {
-
-        }*/
-
-
 abrir.addEventListener("click", function() {
     opacidad.style.opacity = "1";
     opacidad.style.visibility = "visible";
     cajalogos.classList.toggle = ("close");
 
     let posicionClave = posicion.value;
-    document.getElementById("textoCompartir").innerHTML = "La clave es " + posicionClave;
+    document.getElementById("textoCompartir").innerHTML = "La clave es  " + posicionClave;
 });
 
 
@@ -104,4 +99,5 @@ function reload() {
     resultado.value = "";
     textoCifrado.value = "";
     salida.value = "";
+    posicion2.value = "";
 }
