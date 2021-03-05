@@ -91,7 +91,7 @@ abrir.addEventListener("click", function() {
     cajalogos.classList.toggle = ("close");
 
     let posicionClave = posicion.value;
-    document.getElementById("textoCompartir").innerHTML = "La clave es " + posicionClave;
+    document.getElementById("textoCompartir").innerHTML = "La clave es  " + posicionClave;
 });
 
 

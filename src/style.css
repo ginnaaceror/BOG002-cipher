@@ -1,5 +1,5 @@
          body {
-             position: relative;
+             position: absolute;
              background-color: white;
              font-family: roboto;
          }
@@ -13,12 +13,12 @@
          }
          
          .imagen1 {
-             position: absolute;
-             width: 853px;
-             height: 788px;
-             left: 755px;
-             top: -93px;
-         }
+            position: absolute;
+            width: 700px;
+            height: 700px;
+            left: 740px;
+            top: -93px;
+        }
          
          h1 {
              position: absolute;
@@ -409,6 +409,34 @@
              line-height: 23px;
              color: rgba(0, 0, 0, 0.52);
          }
+
+         #clave {
+            position: absolute;
+            width: 220px;
+            height: 55px;
+            left: 79px;
+            top: 380px;
+            font-size: 18px;
+            padding-inline-start: 5px;
+            border: 2px solid #3603A1;
+            box-sizing: border-box;
+            border-radius: 9px;
+        }
+        
+        input::placeholder {
+            position: relative;
+            width: 100px;
+            height: 27px;
+            left: 2px;
+            top: 1px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 30px;
+            text-align: center;
+            color: rgba(0, 0, 0, 0.76);
+        }
          
          #btndescifrado1 {
              position: absolute;
@@ -462,6 +490,30 @@
              top: 1045px;
          }
          
+         .compartir {
+            position: relative;
+            background-color: transparent;
+            border-color: transparent;
+            cursor: pointer;
+            outline: none;
+            width: 35px;
+            height: 35px;
+            left: 1226px;
+            top: 500px;
+        }
+
+        #reload {
+            position: relative;
+            background-color: transparent;
+            border-color: transparent;
+            cursor: pointer;
+            outline: none;
+            width: 35px;
+            height: 35px;
+            left: 1188px;
+            top: 566px;
+        }
+
          #contenedorCompartir {
              opacity: 0;
              visibility: hidden;
@@ -499,57 +551,64 @@
              top: 30px;
              pointer-events: auto;
          }
-         
-         .compartir {
-             position: relative;
-             background-color: transparent;
-             border-color: transparent;
-             cursor: pointer;
-             outline: none;
-             width: 35px;
-             height: 35px;
-             left: 1226px;
-             top: 500px;
-         }
-         
-         #reload {
-             position: relative;
-             background-color: transparent;
-             border-color: transparent;
-             cursor: pointer;
-             outline: none;
-             width: 35px;
-             height: 35px;
-             left: 1188px;
-             top: 566px;
-         }
 
-         #clave {
+        .enunciadoCompartir {
             position: absolute;
-            width: 220px;
-            height: 55px;
-            left: 79px;
-            top: 380px;
-            font-size: 18px;
-            padding-inline-start: 5px;
-            border: 2px solid #3603A1;
-            box-sizing: border-box;
-            border-radius: 9px;
-        }
-        
-        input::placeholder {
-            position: relative;
-            width: 100px;
-            height: 27px;
-            left: 2px;
-            top: 1px;
+            width: 344px;
+            height: 87px;
+            left: 112px;
+            top: 80px;
             font-family: Roboto;
             font-style: normal;
-            font-weight: 300;
-            font-size: 16px;
-            line-height: 30px;
+            font-weight: normal;
+            font-size: 25px;
+            line-height: 29px;
             text-align: center;
-            color: rgba(0, 0, 0, 0.76);
+            color: rgba(0, 0, 0, 0.91);
         }
 
+        #textoCompartir {
+            position: absolute;
+            width: 344px;
+            height: 100px;
+            left: 100px;
+            top: 180px;
+            text-align: center;
+       }
+
+        .whatsapp {
+            position: absolute;
+            width: 87px;
+            height: 87px;
+            left: 63px;
+            top: 331px;
+        }
+        
+        .facebook {
+            position: absolute;
+            width: 87px;
+            height: 87px;
+            left: 180px;
+            top: 331px;
+        }
+        
+        .linkedin {
+            position: absolute;
+            width: 87px;
+            height: 87px;
+            left: 297px;
+            top: 331px;
+        }
+        
+        .instagram {
+            position: absolute;
+            width: 87px;
+            height: 87px;
+            left: 414px;
+            top: 331px;
+        }
+
+
+
+    
          
