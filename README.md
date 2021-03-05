@@ -2,16 +2,15 @@
 
 ## Creación y diseño
 
-Punto de partida:
-
 Partimos del reto de cifrar y descifrar un mensaje pero aparte de cumplir con esas funcionalidades debíamos de pensar en que contexto de uso sería util para nuestros usuarios con el fin de identificar insights para responder a un problema.
 
 
-Nuestro proceso paso a paso:
+NUESTRO PASO A PASO
 
 En esta primera fase definimos el producto y cual va a ser su propósito. Con base en esta definición aterrizamos quienes serían nuestros usuarios, concepto y diseño.
 
 En esta etapa realizamos:
+
 * Lluvia de ideas: aquí definimos que uso le iban a dar los usuarios a nuestro producto.
 * Definir producto: investigamos sobre otros sitios que implementaran las funcionalidades de cifrar y descifrar. También decidimos que nuestro producto fuera una landing page para evitar un flujo extenso y hacer el camino más corto al usuario.
 * Nombre y personalidad: sentíamos que nuestro producto estaba representado por un camaleon, partiendo de la idea del camuflaje - cambio, así que decidimos buscar nombres de camaleones famosos, donde encontramos el nombre de Pascal en el camaleon de la película Enrredados, donde un camaleon ayuda a la princesa que está encerrada en una torre.
@@ -21,12 +20,15 @@ En esta etapa realizamos:
 
 ![bc07b2e2-5766-4f9c-8577-0b44d1507c7e 1](https://user-images.githubusercontent.com/76055544/110140360-02cb8b80-7da2-11eb-9ba5-38f3aed9ef56.jpg)
 
+
 ![566747f0-3fbf-44e1-b820-9c5b642d8a67 1](https://user-images.githubusercontent.com/76055544/110139508-1aeedb00-7da1-11eb-9b3f-48602f665fde.png)
+
 
 Varias propuestas cromáticas
 <img width="828" alt="Propuestas Prototipo" src="https://user-images.githubusercontent.com/76055544/110140575-3a3a3800-7da2-11eb-85ae-485dd89a96da.png">
 
-Pototipo final en alta
+
+Pototipo final en alta (Figma)
 ![Pascal-Prototipo](https://user-images.githubusercontent.com/76055544/110140916-9b620b80-7da2-11eb-8a55-50170cc36f0f.jpg)
 
 
@@ -36,6 +38,7 @@ Pototipo final en alta
 El producto esta pensado para usuari@s en un rango de edad entre 15 - 50 años, de alguna manera independiente de la edad, genero el factor común es la situación de vulnerabilidad que la persona este atravesando.
 
 Ese factor común conecta y da sentido a la solución que ofrece Pascal de brindar un espacio seguro para poder denunciar.
+
 
 
 ## Problemas/necesidades de los usuarios
@@ -48,9 +51,11 @@ Solución: Pascal usa las redes sociales como una vía rapida y con más visibil
 
 ## Objetivos de aprendizaje
 
-Trabajando en parejas aprenderán a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
+La ruta de aprendizaje que nos trazamos fué enfocarnos en el corazon del proyecto trabajando en la lógica y desglosando tareas en mas pequeñas para cubrir nuestros objetivos de aprensizaje que apuntan al manejo del DOM y Javascript.
+
+Otro objetivo que se cubrio en este proyecto fue el manejo del tiempo y de un plannig. Puede que la cobertura no haya sido de un 100% pero es un buen comienzo para enrutar los siguientes proyectos con flujos de trabajo mas optimos.
+
+
 
 ### HTML y CSS
 
