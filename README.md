@@ -16,13 +16,20 @@ En esta etapa realizamos:
 * Definir producto: investigamos sobre otros sitios que implementaran las funcionalidades de cifrar y descifrar. También decidimos que nuestro producto fuera una landing page para evitar un flujo extenso y hacer el camino más corto al usuario.
 * Nombre y personalidad: sentíamos que nuestro producto estaba representado por un camaleon, partiendo de la idea del camuflaje - cambio, así que decidimos buscar nombres de camaleones famosos, donde encontramos el nombre de Pascal en el camaleon de la película Enrredados, donde un camaleon ayuda a la princesa que está encerrada en una torre.
 * Paleta de colores: las emociones que queríamos transmitir eran de confianza y cercanía, donde el morado nos ayudaba a trasmitir confianza y el amarillo esa calidez para transmitir un lado más humano.
-* Boceto manual y boceto digital (prototipo en alta): a continuación las imagen de nuestros bocetos hechos en papel y prototipo diseñado en Figma:
+* Boceto manual y boceto digital (prototipo en alta): a continuación las imagenes de nuestros bocetos hechos en papel y prototipo diseñado en Figma:
 
-![prototipo]
-from=Recursos/Boceto1.jpg
-from=Recursos/Boceto2.jpg
-from=Recursos/Propuestas Prototipo.png
-from=Recursos/Pascal-Prototipo.jpg
+
+![bc07b2e2-5766-4f9c-8577-0b44d1507c7e 1](https://user-images.githubusercontent.com/76055544/110140360-02cb8b80-7da2-11eb-9ba5-38f3aed9ef56.jpg)
+
+![566747f0-3fbf-44e1-b820-9c5b642d8a67 1](https://user-images.githubusercontent.com/76055544/110139508-1aeedb00-7da1-11eb-9b3f-48602f665fde.png)
+
+Varias propuestas cromáticas
+<img width="828" alt="Propuestas Prototipo" src="https://user-images.githubusercontent.com/76055544/110140575-3a3a3800-7da2-11eb-85ae-485dd89a96da.png">
+
+Pototipo final en alta
+![Pascal-Prototipo](https://user-images.githubusercontent.com/76055544/110140916-9b620b80-7da2-11eb-8a55-50170cc36f0f.jpg)
+
+
 
 ## Usuarios y relación con el producto
 
@@ -89,28 +96,28 @@ como tecnologías.
 
 ### Parte Obligatoria
 
-* [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+* [X] `README.md` incluye info sobre proceso y decisiones de diseño.
+* [X] `README.md` explica claramente quiénes son los usuarios y su relación con
   el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
+* [X] `README.md` explica claramente cómo el producto soluciona los
   problemas/necesidades de los usuarios.
-* [ ] Usa VanillaJS.
-* [ ] No utiliza `this`.
-* [ ] Implementa `cipher.encode`.
-* [ ] Implementa `cipher.decode`.
+* [X] Usa VanillaJS.
+* [X] No utiliza `this`.
+* [X] Implementa `cipher.encode`.
+* [X] Implementa `cipher.decode`.
 * [ ] Pasa linter con configuración provista.
-* [ ] Pasa pruebas unitarias.
-* [ ] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
+* [X] Pasa pruebas unitarias.
+* [X] Pruebas unitarias cubren 70% de _statements_, _functions_ y _lines_, y un
   mínimo del 50% de _branches_.
-* [ ] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
+* [X] Interfaz permite elegir el `offset` o _desplazamiento_ a usar en el
   cifrado/descifrado.
-* [ ] Interfaz permite escribir un texto para ser cifrado.
-* [ ] Interfaz muestra el resultado del cifrado correctamente.
-* [ ] Interfaz permite escribir un texto para ser descifrado.
-* [ ] Interfaz muestra el resultado del descifrado correctamente.
+* [X] Interfaz permite escribir un texto para ser cifrado.
+* [X] Interfaz muestra el resultado del cifrado correctamente.
+* [X] Interfaz permite escribir un texto para ser descifrado.
+* [X] Interfaz muestra el resultado del descifrado correctamente.
 
 ### Parte Opcional: "Hacker edition"
 
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
-* [ ] Permite usar un `offset` negativo.
+* [X] Permite usar un `offset` negativo.
