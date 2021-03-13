@@ -29,6 +29,10 @@ describe('cipher', () => {
             expect(cipher.encode('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 33)).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
         });
 
+        it('should return "BCD BCD," for "ABC ABC," with offset 1', () => {
+            expect(cipher.encode('ABC ABC,', 1)).toBe('BCD BCD,');
+        });
+
         // Hacker edition
         //
         // [Español]

@@ -1,22 +1,17 @@
 import cipher from './cipher.js';
-//cipher.descifrado("B", 1)
 
-
-/*id de la sección cifrado*/
 
 let texto = document.getElementById("denuncia");
 let posicion = document.getElementById("desplazamiento");
-let btncifrado = document.getElementById("btncifrado1");
-let resultado = document.getElementById("textoCifrado");
+const btncifrado = document.getElementById("btncifrado1");
+const resultado = document.getElementById("textoCifrado");
 let posicion2 = document.getElementById("clave");
-
 
 
 texto.addEventListener("keyup", function() {
     texto.value = texto.value.toUpperCase();
 
 });
-
 
 
 /*Un evento es inutil sino se le asigna alguna función, en este caso el 
@@ -63,10 +58,10 @@ textoIngresado2*/
     let resultadoDescifrado = resultado2.value = cipher.descifrado(textoIngresado2);
 }*/
 
-let opacidad = document.querySelectorAll("#contenedorCompartir")[0];
-let cajalogos = document.querySelectorAll(".contenedorx")[0];
-let cerrar = document.querySelectorAll(".close")[0];
-let abrir = document.querySelectorAll(".compartir")[0];
+let opacidad = document.querySelector("#contenedorCompartir");
+let cajalogos = document.querySelector(".contenedorx");
+let cerrar = document.querySelector(".close");
+let abrir = document.querySelector(".compartir");
 
 /*abrir.addEventListener("click", function() {
     opacidad.style.opacity = "1";

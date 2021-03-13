@@ -7,7 +7,7 @@ Partimos del reto de cifrar y descifrar un mensaje pero aparte de cumplir con es
 
 NUESTRO PASO A PASO
 
-En esta primera fase definimos el producto y cual va a ser su propósito. Con base en esta definición aterrizamos quienes serían nuestros usuarios, concepto y diseño.
+En esta primera fase definimos el producto y cual iba a ser su propósito. Con base en esta definición aterrizamos quienes serían nuestros usuarios, concepto y diseño.
 
 En esta etapa realizamos:
 
@@ -35,9 +35,9 @@ Pototipo final en alta (Figma)
 
 ## Usuarios y relación con el producto
 
-El producto esta pensado para usuari@s en un rango de edad entre 15 - 50 años, de alguna manera independiente de la edad, genero el factor común es la situación de vulnerabilidad que la persona este atravesando.
+El producto esta pensado para usuari@s en un rango de edad entre 15 - 50 años, de alguna manera independiente de la edad o genero, el factor común es la situación de vulnerabilidad que la persona este atravesando.
 
-Ese factor común conecta y da sentido a la solución que ofrece Pascal de brindar un espacio seguro para poder denunciar.
+Este factor común conecta y da sentido a la solución que ofrece Pascal de brindar un espacio seguro para poder denunciar.
 
 
 
@@ -45,16 +45,15 @@ Ese factor común conecta y da sentido a la solución que ofrece Pascal de brind
 
 Problematica: partimos de dos insights, las personas no denuncian por miedo a ser señaladas, juzgadas o porque temen que la persona involucrada pueda tomar represivas contra ellos y el segundo es que prefieren denunciar en redes sociales por la negligencia de las autoridades.
 
-Solución: Pascal usa las redes sociales como una vía rapida y con más visibilidad para denunciar, con el fin de que otros conozcan su realidad por medio de mensajes cifrados teniendo el control de quienes lo ven.
+Solución: Pascal usa las redes sociales como una vía rápida y con más visibilidad para denunciar. Con el fin de que otros conozcan su realidad por medio de mensajes cifrados teniendo el control de quienes lo ven.
 
 
 
 ## Objetivos de aprendizaje
 
-La ruta de aprendizaje que nos trazamos fué enfocarnos en el corazon del proyecto trabajando en la lógica y desglosando tareas en mas pequeñas para cubrir nuestros objetivos de aprensizaje que apuntan al manejo del DOM y Javascript.
+La ruta de aprendizaje que nos trazamos fué enfocarnos en el corazón del proyecto trabajando en la lógica y desglosando tareas más pequeñas para cubrir nuestros objetivos de aprendizaje que apuntan al manejo del DOM y Javascript.
 
-Otro objetivo que se cubrio en este proyecto fue el manejo del tiempo y de un plannig. Puede que la cobertura no haya sido de un 100% pero es un buen comienzo para enrutar los siguientes proyectos con flujos de trabajo mas optimos.
-
+Otro objetivo que se trabajo en este proyecto fue el manejo del tiempo y el planning. Puede que la cobertura no haya sido de un 100% pero es un buen comienzo para enrutar los siguientes proyectos con flujos de trabajo más óptimos.
 
 
 ### HTML y CSS
@@ -75,8 +74,8 @@ Otro objetivo que se cubrio en este proyecto fue el manejo del tiempo y de un pl
 * [X] Manipulación de strings.
 * [ ] Uso de condicionales (if-else | switch | operador ternario)
 * [X] Uso de bucles (for | for..in | for..of | while)
-* [X] Uso de funciones (parámetros | argumentos | valor de retorno)
-* [ ] Declaración correcta de variables (const & let)
+* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
+* [X] Declaración correcta de variables (const & let)
 
 ### Testing
 
